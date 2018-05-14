@@ -12,5 +12,8 @@ public class Main {
         Student student3 = new Student("Hover", "Matt", 32, "Group3");
         Student.showCounter();
         System.out.println(student.showUser());
+
+        Teacher teacher = new Teacher("Jack", "Doe", 23, "myFaculty");
+        teacher.showTeacher();
     }
 }
